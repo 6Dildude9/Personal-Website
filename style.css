@@ -1,0 +1,193 @@
+/* section 1 */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Patua+One&family=Poppins:wght@600&family=Sofia+Sans+Condensed:wght@700&display=swap');
+body{
+background-color: rgb(2, 29, 44);
+color: aliceblue;
+font-family: Sofia Sans Condensed;
+background-image: url(https://i.pinimg.com/originals/d9/1a/d7/d91ad79a3f6b1075fc48d63fd5f71afb.gif);
+background-repeat: no-repeat;
+background-size: cover;
+text-shadow: 2px 2px 2px #CE0E0E;
+}
+
+.contactbutton{
+color: aliceblue;
+background-color: rgb(134, 18, 99);
+text-decoration: none;
+padding: 11px;
+margin-top: 2.0rem;
+display: inline-block;
+margin-left: 2rem;
+border-radius: 5px;
+border: 3px solid rgb(221, 0, 11);
+}
+
+
+.frontpage_section{
+margin-top: 6rem;
+margin-left: auto;
+margin-right: auto;
+max-width: 1500px;
+display: grid;
+grid-template-columns: 50% 50%;
+align-items: center;
+}
+.pic{
+justify-self: end;
+transition-duration: 300ms;
+object-fit: cover ;
+width: 100%;
+height: 100%;
+border: 3px solid red;
+border-radius: 10px;
+}
+.pic:hover{
+scale: 1.2;
+
+}
+
+.image-container{
+margin-top: 0rem;
+width: 22rem;
+height: 30rem;
+position: relative;
+border-radius: 10px;
+}
+
+.rightside-container{
+display: flex;
+justify-content: center;
+align-content: center;
+
+}
+
+.malaking-name{
+font-size: 3.5rem;
+margin: 0;
+
+}
+
+.student{
+margin: 0;
+font-size: 1.2rem;
+
+}
+
+.leftside-container{
+margin-left: 10rem;
+background-color: rgba(137, 43, 226, 0.596);
+padding: 3rem;
+border-radius: 10px;
+border: 3px solid rgb(252, 3, 3);
+
+}
+
+nav{
+border: 3px solid rgb(255, 0, 0);
+background-color: rgba(137, 43, 226, 0.596);
+display: flex;
+justify-content: center;
+max-width: 700px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+border-radius: 5px;
+}
+
+ul{
+display: flex;
+flex-direction: row;
+gap: 5rem;
+list-style: none;
+padding: 0%;
+}
+
+ul a{
+font-size: x-large;
+color: aliceblue;
+text-decoration: none;
+font-size: x-large;
+}
+
+/* section 2 */
+
+.gif-container{
+width: 80%;
+height: 100%;
+position: relative;
+
+
+}
+
+.gif{
+width: 100%;
+height: 100%;
+object-fit: cover;
+border: 3px solid red;
+border-radius: 5px;
+transition-duration: 300ms;
+}
+
+.gif:hover{
+scale: 1.2;
+}
+
+.hehe{
+font-size: 1.3cm;
+margin: 0;
+margin-top: 2rem;
+}
+
+.nyork{
+margin: 0;
+}
+
+.soc-container{
+width: 50%;
+height: 70%;
+position: relative;
+transition-duration: 300ms;
+}
+
+.soc{
+width: 100%;
+border: 3px solid red;
+}
+
+.soc-container:hover{
+scale: 1.2;
+
+}
+
+.social-list{
+display: flex;
+flex-direction: column;
+margin: 0;
+}
+
+.hihi{
+margin: 0;
+font-size: 3rem;
+}
+
+.social-list a{
+margin: 0;
+width: fit-content;
+display: inline-block;
+}
+.social-list > li{
+    margin:  0;
+    margin-bottom: -3rem;
+}
+.home-button{
+    margin-top: 4rem;
+}
+
+.contactbutton:hover{
+scale: 1.3;
+}
+
+.contactbutton{
+transition-duration: 300ms;
+}
+
